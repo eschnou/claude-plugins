@@ -37,6 +37,8 @@ Run commands sequentially for a feature:
 
 ## Install
 
+Add the marketplace, then install:
 ```
-/install spec-driven-development@eschnou/claude-plugins
+/plugin marketplace add eschnou/claude-plugins
+/plugin install sdd@eschnou-claude-plugins
 ```

@@ -8,16 +8,16 @@ Personal collection of Claude Code plugins.
 |--------|-------------|
 | [spec-driven-development](./plugins/spec-driven-development) | Spec-Driven Development workflow with requirements, design, and implementation commands |
 
-## Install a plugin
+## Install
 
+Add this marketplace:
 ```
-/install <plugin-name>@eschnou/claude-plugins
+/plugin marketplace add eschnou/claude-plugins
 ```
 
-For example:
-
+Then install a plugin:
 ```
-/install spec-driven-development@eschnou/claude-plugins
+/plugin install sdd@eschnou-claude-plugins
 ```
 
 ## License
