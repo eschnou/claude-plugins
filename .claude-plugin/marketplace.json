@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-plugins",
+  "name": "eschnou-plugins",
   "description": "Personal collection of Claude Code plugins",
   "owner": { "name": "Laurent Eschenauer" },
   "plugins": [
