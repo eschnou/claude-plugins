@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins",
+  "description": "Personal collection of Claude Code plugins",
+  "owner": { "name": "Laurent Eschenauer" },
+  "plugins": [
+    {
+      "name": "sdd",
+      "description": "Spec-Driven Development workflow with requirements, design, and implementation commands",
+      "version": "1.0.0",
+      "author": { "name": "Laurent Eschenauer" },
+      "source": "./plugins/spec-driven-development",
+      "category": "development"
+    }
+  ]
+}

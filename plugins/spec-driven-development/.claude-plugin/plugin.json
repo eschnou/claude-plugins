@@ -1,0 +1,5 @@
+{
+  "name": "sdd",
+  "description": "Spec-Driven Development workflow with requirements, design, and implementation commands",
+  "author": { "name": "Laurent Eschenauer" }
+}
