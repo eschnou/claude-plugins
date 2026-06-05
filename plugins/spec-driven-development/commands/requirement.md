@@ -24,14 +24,15 @@ This document is meant to be consumed by a coding agent. Therefore, you have to 
 
 ## Tasks
 - Read @/specs/index.md to determine the next sequential number (NNN format, e.g., 001, 002, 003)
-- Create a new folder under ./specs/ named `NNN-$1` (e.g., `001-auth-flow`)
+- Use the user-provided slug hint `$0` as a starting point, but refine it into a short, descriptive, kebab-case slug (e.g., `auth-flow`, `aws-infrastructure`) — do not blindly keep a vague hint
+- Create a new folder under ./specs/ named `NNN-<slug>` (e.g., `001-auth-flow`)
 - Research the codebase to understand the feature request in the context of the application
 - Lookup for latest documentation online when needed
 - Producte the requirements.md file in the target folder
 - Update @/specs/index.md to add the new spec entry
 
 # User request
-Feature name: $1
+Slug hint: $0
 
 Feature description:
-$2
+$ARGUMENTS

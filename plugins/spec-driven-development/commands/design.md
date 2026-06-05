@@ -29,11 +29,11 @@ This document is meant to be consumed by a coding agent. Therefore, you have to 
 - No estimates, timelines, etc.
 
 ## Research guidelines
-- Read @/specs/index.md to find the spec folder matching `$1` (match by slug, e.g., `$1` matches `001-$1`)
+- Read @/specs/index.md to find the spec folder matching `$0` (match by slug, e.g., `$0` matches `001-$0`)
 - Do read the requirements in the matching spec folder
 - Lookup for latest documentation online when needed
 - Research the codebase
 - Update @/specs/index.md to reflect that design is now in progress/complete
 
 Additional details provided by the user:
-$2
+$ARGUMENTS
