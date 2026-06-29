@@ -7,7 +7,7 @@
     {
       "name": "sdd",
       "description": "Spec-Driven Development workflow with requirements, design, and implementation commands",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": { "name": "Laurent Eschenauer" },
       "source": "./plugins/spec-driven-development",
       "category": "development"
